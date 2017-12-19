@@ -1,0 +1,7 @@
+./RUNgzip ../../simplesim-3.0/sim-cache ../../spec2000binaries/gzip00.peak.ev6 -config co.config -redir:sim out1.txt
+
+./RUNammp ../../simplesim-3.0/sim-cache ../../spec2000binaries/ammp00.peak.ev6 -config co.config -redir:sim out2.txt
+
+./RUNapplu ../../simplesim-3.0/sim-cache ../../spec2000binaries/applu00.peak.ev6 -config co.config -redir:sim out3.txt
+
+./RUNswim ../../simplesim-3.0/sim-cache ../../spec2000binaries/swim00.peak.ev6 -config co.config -redir:sim out4.txt
